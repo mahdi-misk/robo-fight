@@ -28,4 +28,4 @@ while True:
     else:
         print("No changes")
 
-    time.sleep(60)
+    time.sleep(3600)
