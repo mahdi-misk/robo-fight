@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(pip show:*)",
-      "Bash(cd \"E:/my project/private/robo fight\" && pyinstaller --onefile --name auto_push auto_push.py 2>&1 | tail -5)",
-      "Bash(python -m PyInstaller --onefile --name auto_push --distpath \"E:/my project/private/robo fight/dist\" --workpath \"E:/my project/private/robo fight/build\" --specpath \"E:/my project/private/robo fight\" \"E:/my project/private/robo fight/auto_push.py\" 2>&1 | tail -10)"
-    ]
-  }
-}
